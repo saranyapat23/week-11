@@ -1,0 +1,38 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+
+:root {
+	--ion-color-pinky: #F9ACC0;
+	--ion-color-pinky-rgb: 249,172,192;
+	--ion-color-pinky-contrast: #000000;
+	--ion-color-pinky-contrast-rgb: 0,0,0;
+	--ion-color-pinky-shade: #db97a9;
+	--ion-color-pinky-tint: #fab4c6;
+}
+
+.ion-color-pinky {
+	--ion-color-base: var(--ion-color-pinky);
+	--ion-color-base-rgb: var(--ion-color-pinky-rgb);
+	--ion-color-contrast: var(--ion-color-pinky-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pinky-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pinky-shade);
+	--ion-color-tint: var(--ion-color-pinky-tint);
+}
+
+:root {
+	--ion-color-pinkwhite: #faebef;
+	--ion-color-pinkwhite-rgb: 250,235,239;
+	--ion-color-pinkwhite-contrast: #000000;
+	--ion-color-pinkwhite-contrast-rgb: 0,0,0;
+	--ion-color-pinkwhite-shade: #dccfd2;
+	--ion-color-pinkwhite-tint: #fbedf1;
+}
+
+.ion-color-pinkwhite {
+	--ion-color-base: var(--ion-color-pinkwhite);
+	--ion-color-base-rgb: var(--ion-color-pinkwhite-rgb);
+	--ion-color-contrast: var(--ion-color-pinkwhite-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pinkwhite-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pinkwhite-shade);
+	--ion-color-tint: var(--ion-color-pinkwhite-tint);
+}

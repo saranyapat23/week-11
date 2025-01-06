@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <div class="ion-padding">
+      <h2 >สมัครสมาชิก</h2>
+      <div class="ion-padding">
+        <ion-input label="name" labelPlacement="stacked" type="text" [(ngModel)]="txtname" fill="solid"></ion-input>
+        <ion-input label="email" labelPlacement="stacked" type="email" [(ngModel)]="txtemail" fill="solid"></ion-input>
+        <ion-input label="username" labelPlacement="stacked" type="text" [(ngModel)]="txtusername" fill="solid"></ion-input>
+        <ion-input label="password" labelPlacement="stacked" type="password" [(ngModel)]="txtpassword" fill="solid"></ion-input>
+      </div>
+      <ion-button (click)="register()"> สมัครสมาชิก</ion-button>
+    </div>
+  </ion-card>
+</ion-content>
